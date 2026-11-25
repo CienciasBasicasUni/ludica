@@ -1,0 +1,137 @@
+{
+ "lista": [
+  {
+   "Estudiante": "Lucia",
+   "Presente": true
+  },
+  {
+   "Estudiante": "Carlos",
+   "Presente": true
+  },
+  {
+   "Estudiante": "Aleja",
+   "Presente": true
+  },
+  {
+   "Estudiante": "Karla",
+   "Presente": true
+  },
+  {
+   "Estudiante": "Gabriela",
+   "Presente": true
+  },
+  {
+   "Estudiante": "Fernando",
+   "Presente": true
+  }
+ ],
+ "cfg": {
+  "semilla": "galletas2026",
+  "fase": "R4",
+  "fin_fase": 1795642101.747053,
+  "evento_activo": "E1",
+  "mostrar_diagrama": false
+ },
+ "equipos": {
+  "Equipo 1": [
+   "Fernando",
+   "Lucia",
+   "Gabriela"
+  ],
+  "Equipo 2": [
+   "Karla",
+   "Aleja",
+   "Carlos"
+  ]
+ },
+ "quiz": {
+  "entrada": {
+   "Estudiante 01": {
+    "aciertos": 5,
+    "de": 5
+   },
+   "Estudiante 06": {
+    "aciertos": 1,
+    "de": 5
+   },
+   "Fernando": {
+    "aciertos": 5,
+    "de": 5
+   },
+   "Lucia": {
+    "aciertos": 5,
+    "de": 5
+   },
+   "Karla": {
+    "aciertos": 5,
+    "de": 5
+   },
+   "Aleja": {
+    "aciertos": 5,
+    "de": 5
+   },
+   "Carlos": {
+    "aciertos": 4,
+    "de": 5
+   },
+   "Gabriela": {
+    "aciertos": 0,
+    "de": 5
+   }
+  },
+  "salida": {}
+ },
+ "quiz_raw": {
+  "entrada": {
+   "Estudiante 01": "BABCB",
+   "Estudiante 06": "AAAAA",
+   "Fernando": "BABCB",
+   "Lucia": "BABCB",
+   "Karla": "BABCB",
+   "Aleja": "BABCB",
+   "Carlos": "BABCA",
+   "Gabriela": "ACC"
+  },
+  "salida": {}
+ },
+ "intentos": {
+  "Equipo 1": {
+   "r1a_F": {
+    "fallos": 0,
+    "ok": true,
+    "credito": 1.0
+   },
+   "r1a_R": {
+    "fallos": 2,
+    "ok": true,
+    "credito": 0.6
+   },
+   "r1a_X": {
+    "fallos": 1,
+    "ok": true,
+    "credito": 0.8
+   }
+  }
+ },
+ "manual": {},
+ "eventos": {
+  "E1": {
+   "t0": 1795640148.9746535,
+   "resp": {}
+  },
+  "E2": {
+   "t0": 1795640980.5303338,
+   "resp": {}
+  },
+  "E3": {
+   "t0": 1795640991.4045062,
+   "resp": {}
+  },
+  "E4": {
+   "t0": 1795641007.5415366,
+   "resp": {}
+  }
+ },
+ "oral": {},
+ "coeval_prom": {}
+}
